@@ -1,209 +1,261 @@
-<html>
+<!doctype html>
+<html lang="en">
     <head>
-        <h1>
-            Dzmitry Ramanavets        
-        </h1>
-        <h3>
-            Software engineer
-        </h3>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <title>CV Html</title>
     </head>
     <body>
-        <div>
-            <h2>
-                Personal information
-            </h2>
-            <table>
-                <tr>
-                    <td>
-                        Telephone:
-                    </td>
-                    <td>
-                        mobile: +375-29-259-02-04
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Email: 
-                    </td>
-                    <td>
-                        heimdim@gmail.com
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Skype: 
-                    </td>
-                    <td>
-                        dimster15
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        LinkedIn:
-                    </td>
-                    <td>
-                        linkedin.com/in/dmitriyromanovets/
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Date of birth:
-                    </td>
-                    <td>
-                        19th February 1998
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div>
-            <h2>
-                Objective
-            </h2>
-            <div>
-                I am seeking a position with a company where I can realize my interests in software development.   
-            </div>
-        </div>
-        <div>
-            <h2>
-                Education
-            </h2>
-            <ul>
-                <li>
-                    <b>
-                        Belarussian State University
-                    </b>(Minsk, Belarus)
-                    <div>
-                        Faculty of Mechanics and Mathematics
-                        Master's degree in Computer Science (2019–2022)
-                        Department of mobile software
-                    </div>
-                </li>
-                <li>
-                    <b>
-                        Belarussian State University
-                    </b>(Minsk, Belarus)
-                    <div>
-                        Faculty of Applied Mathematics and Computer Science
-                        Bachelor's degree in Computer Science (2015–2019), GPA 7.0/10.0
-                        Department of Multiprocessor Systems and Networks
-                    </div> 
-                </li>
-                <li>
-                    <b>
-                        Belarussian State University Lyceum
-                    </b>(Minsk, Belarus)
-                     <div>
-                        Mathematics
-                        Associate degree(2013-2015), GPA 9.4/10.0
-                     </div>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h2>
-                Work experience
-            </h2>
-            <ul>
-                <li>
-                    <b>
-                        «Epam Systems», 10.2019–present
-                   </b> 
-                   <div>
-                        <div>
-                            Minsk, Belarus, Middle Software engineer (.Net Fullstack developer).
+        <header> 
+            <h1>
+                Dzmitry Ramanavets        
+            </h1>
+            <h3>
+                Software engineer
+            </h3>
+        </header>
+        <hr>
+        <main>
+            <section>
+                <h2 class="cv-paragraph-header">
+                    Personal information
+                </h2>
+                <div id="personal-info-container">
+                    <table id="personal-info-table">
+                        <tr>
+                            <td>
+                                Telephone:
+                            </td>
+                            <td>
+                                mobile: +375-29-259-02-04
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Email: 
+                            </td>
+                            <td id="email-table-cell">
+                                heimdim@gmail.com
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Skype: 
+                            </td>
+                            <td>
+                                dimster15
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                LinkedIn:
+                            </td>
+                            <td>
+                                <a href="https://linkedin.com/in/dmitriyromanovets/">linkedin.com/in/dmitriyromanovets/</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Date of birth:
+                            </td>
+                            <td>
+                                19th February 1998
+                            </td>
+                        </tr>
+                    </table>
+                    <figure id="personal-photo">
+                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQGPLor5RfcXNA/profile-displayphoto-shrink_800_800/0/1536097215850?e=1637193600&v=beta&t=qBysN1fkj2Iq82n1nUOWrQDpljLHY9frnOM9bqHuSz8" alt="personal photo">
+                        <figcaption>Dzmitry Ramanavets</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section>
+                <h2 class="cv-paragraph-header">
+                    Objective
+                </h2>
+                <div>
+                    <p>
+                        I am seeking a position with a company where I can realize my interests in software development.
+                    </p>   
+                </div>
+            </section>
+            <section id="education-paragraph">
+                <h2 class="cv-paragraph-header" >
+                    Education
+                </h2>
+                <ul>
+                    <li>
+                        <b>
+                            Belarussian State University
+                        </b>(Minsk, Belarus)
+                        <p>
+                            Faculty of Mechanics and Mathematics
+                        </p>
+                        <p>
+                            Master's degree in Computer Science (2019–2022)
+                        </p>
+                        <p>
+                            <i>
+                                Department of mobile software
+                            </i>
+                        </p>
+                    </li>
+                    <li>
+                        <b>
+                            Belarussian State University
+                        </b>(Minsk, Belarus)
+                        <p>
+                            Faculty of Applied Mathematics and Computer Science
+                        </p>
+                        <p>
+                            Bachelor's degree in Computer Science (2015–2019), GPA 7.0/10.0
+                        </p>
+                        <p>
+                            <i>
+                                Department of Multiprocessor Systems and Networks
+                            </i>
+                        </p>
+                    </li>
+                    <li>
+                        <b>
+                            Belarussian State University Lyceum
+                        </b>(Minsk, Belarus)
+                         <p>
+                            Mathematics
+                        </p>
+                        <p>
+                            Associate degree (2013-2015), GPA 9.4/10.0
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="cv-paragraph-header">
+                    Work experience
+                </h2>
+                <ul>
+                    <li>
+                        <b>
+                            «Epam Systems», 10.2019–present
+                       </b> 
+                       <div>
+                            <div>
+                                Minsk, Belarus, Middle Software engineer (.Net Fullstack developer).
+                            </div>
+                            <i>
+                                Projects related to the developing and support of a large international law aggregator.
+                            </i>
+                       </div>
+                    </li>
+                    <li>
+                       <b>
+                            «TopSoft» LTD, 08.2018–10.2019
+                       </b> 
+                       <div>
+                            <div>
+                                Minsk, Belarus, Junior Software engineer (.Net desktop developer).
+                            </div>
+                            <i>
+                                A project related to the development of a platform (Xafari Framework) for building business application with a multi-layered architecture.             
+                            </i>
                         </div>
-                        <i>
-                            Projects related to the developing and support of a large international law aggregator.
-                        </i>
-                   </div>
-                </li>
-                <li>
-                   <b>
-                        «TopSoft» LTD, 08.2018–10.2019
-                   </b> 
-                   <div>
-                        <div>
-                            Minsk, Belarus, Junior Software engineer (.Net desktop developer).
-                        </div>
-                        <i>
-                            A project related to the development of a platform (Xafari Framework) for building business application with a multi-layered architecture.             
-                        </i>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h2>
-                Skills and competences
-            </h2>
-            <table>
-                <tr>
-                    <td>
-                        C# 7/.Net (XAF, WPF, WinForms, Asp.Net)
-                    </td>
-                    <td>
-                        Computer Networks
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        XPO
-                    </td>
-                    <td>
-                        Primarily in SQL
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        TFS
-                    </td>
-                    <td>
-                        Experience in Java, C++, JS
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        XSLT
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div>
-            <h2>
-                Personal skills
-            </h2>
-            <ul>
-                <li>
-                    Native Russian
-                </li>
-                <li>
-                    English (B1+)
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h2>
-                Events
-            </h2>
-            <ul>
-                <li>
-                    CanSat (Moscow-Kaluga, Russia, mini-satellite analyzers creation and launch championship). First place.
-                </li>
-                <li>
-                    BSU Hackaton
-                </li>
-                <li>
-                    BizTech (International competition of startup-projects)
-                </li>
-            </ul>
-        </div>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="cv-paragraph-header">
+                    Skills and competences
+                </h2>
+                <table id="skills-table">
+                    <tr>
+                        <td>
+                            <ul><li>
+                                C# 9/.Net (XAF, WPF, WinForms, Asp.Net)
+                            </li></ul>
+                        </td>
+                        <td>
+                            <ul><li>
+                                Computer Networks
+                            </li></ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul><li>
+                                XPO
+                            </li></ul>
+                        </td>
+                        <td>
+                            <ul><li>
+                                Primarily in SQL
+                            </li></ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul><li>
+                                TFS
+                            </li></ul>
+                        </td>
+                        <td>
+                            <ul><li>
+                                Experience in Java, C++, JS
+                            </li></ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul><li>
+                                XSLT
+                            </li></ul>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+                <div>
+                    Code example:
+                    <a href="https://github.com/Heimdim/rsschool-cv/">https://github.com/Heimdim/rsschool-cv/</a>
+                </div>
+            </section>
+            <section>
+                <h2 class="cv-paragraph-header">
+                    Personal skills
+                </h2>
+                <ul>
+                    <li>
+                        Native Russian
+                    </li>
+                    <li>
+                        English (B1+)
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="cv-paragraph-header">
+                    Events
+                </h2>
+                <ul>
+                    <li>
+                        CanSat (Moscow-Kaluga, Russia, mini-satellite analyzers creation and launch championship). First place.
+                    </li>
+                    <li>
+                        BSU Hackaton
+                    </li>
+                    <li>
+                        BizTech (International competition of startup-projects)
+                    </li>
+                </ul>
+            </section>
+        </main>
         <footer>
             <div>
-                Github
-                <a href="https://github.com/Heimdim">github.com/Heimdim,</a>
-                2021,
+                <div>
+                    Github -
+                    <a href="https://github.com/Heimdim">github.com/Heimdim,</a>
+                    2021
+                </div>
                 <a href="https://rs.school/js/">
-                    <img src="https://rs.school/images/rs_school_js.svg">
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="rs school logo">
                 </a>
             </div>
         </footer>
