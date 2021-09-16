@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Heimdim.github.io/rsschool-cv/cv
